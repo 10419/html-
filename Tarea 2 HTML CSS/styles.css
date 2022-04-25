@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("descarga.jfif");
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkorange;
+    background: linear-gradient(to right, rgb(116, 179, 92), #5c9e5f, #70c070, rgb(225, 238, 238));  
+    border: 2px solid white;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#Encabezado{
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 20px;
+    position: absolute;
+}
+.menul{
+        background-color:white;
+        margin-left: 10px;
+        height: 300px;
+        width: 20px;
+        float: left;
+       
+}
+.texto{
+    background-color: darkgrey;   
+    height: 300px;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+#tec{
+  text-align: left;
+}
+.footer {
+    border: 2px solid;
+    text-align: center;
+    margin-top: 400px;
+}
+.containner{
+    width: 80%;
+    margin: 0 auto;
+    border: solid ;
+}
+.logo{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    margin-left: 20px;
+}
+.per{
+    margin-left: 90%;
+}
+
+#pie{
+    margin-top: 20px;
+}
