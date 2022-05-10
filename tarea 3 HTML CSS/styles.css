@@ -1,0 +1,49 @@
+body{
+    
+        background-color: #EFEFEF;
+}
+header{
+    background-color: #EFEFEF;
+    height: 108px;
+    display: flex;
+    
+}
+.container{
+    margin: 2%;
+    
+}
+#Encabezafo{
+    color: #E287A1;
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
+    
+}
+#logo{
+    padding-top: 10px;
+   
+}
+.contactos{
+ color:#FFFFFF;
+ text-align: center;
+ border: 2px solid #EFEFEF;
+ background-color: #E44266;
+ padding-top: 20px;
+ float: right;
+ width: 18%;
+}
+.tele{
+    background-color: #FEDE73;
+    color: #E44266;
+}
+.link, a{
+    color: white;
+    padding: 10px 100px 10px 70px ;
+    background-color: #E287A1;
+    justify-content: space-around;
+    margin: 10px;
+}
+.link{
+    display: list-item;
+    justify-content: space-around;
+}

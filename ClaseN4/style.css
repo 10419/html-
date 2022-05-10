@@ -1,0 +1,144 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #003865;
+}
+.logo{
+    margin-top: -25px;
+    
+}
+.logo1{
+    margin-top: -2px;
+    animation-name:slidein, corzazon;
+    animation-duration: 3S,;
+
+}
+.sociales{
+    margin-top: -20px;
+    
+}
+nav{
+    
+    text-align: center ;
+    background-color: #F5AC22;
+    height: 40px;
+}
+ul{
+    margin: 0px;
+    padding-top: 10px;
+}
+nav ul li  {
+    display: inline;
+
+    
+}
+nav ul li:hover{
+    background-color: #073565;
+    padding: 10px 10px 10px 10px;
+    
+}
+nav ul li a:hover{
+    color: white;
+    
+}
+nav ul li a {
+    
+    text-decoration:  none;
+    padding: 50px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section{
+    display: flex;
+    flex-flow: wrap;
+}
+article{
+    padding: 10px;
+    border: #003865 solid 2px;
+    margin: 15px;
+    flex: 20%;
+}
+.imagen {
+
+    text-align: center;
+}
+.imagen img{
+
+    width: 200px;
+    transform: rotate(5deg);
+    
+    
+}
+.imagen img:hover{
+    transform: scale(1.5);
+   
+   
+}
+.f1{
+    filter: blur(5px);
+}
+.f1:hover{
+    filter: none;
+}
+.f2{
+    filter: sepia();
+}
+.f2:hover{
+    filter: none;
+}
+.f3{
+    filter: grayscale();
+}
+.f3:hover{
+    filter: none;
+}
+.titulo1{
+    animation: 3s infinite alternate slidein;
+    
+}
+@keyframes slidein {
+    from{
+        margin-left: 100% ;
+        width: 300%;
+    }
+    10%{
+        font-size: 300%;
+        margin-left: 40%;
+        white: 150%;
+    }
+    10%{
+        font-size: 300%;
+        margin-left: 90%;
+        white: 150%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes jueves {
+    from{
+      margin-left: -100% ; 
+    }
+    80%{
+        transform: scale(0.8);
+    }
+    90%{
+        transform: scale(1,2);
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+@keyframes corzazon {
+    from{
+        transform: scale(0.6);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
